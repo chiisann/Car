@@ -46,7 +46,7 @@ function init() {
 
     // Load GLB
     const GLBloader = new THREE.GLTFLoader();
-    const url = 'https://chiisann.github.io/Car/';
+    const url = 'https://chiisann.github.io/Car/Road.glb';
 
     let model = null;
     GLBloader.load(
